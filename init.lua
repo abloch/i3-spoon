@@ -35,6 +35,9 @@ hs.hotkey.bind({"alt"}, "c", function()
   cur:centerOnScreen()
 end)
 
+hs.hotkey.bind({"alt"}, "l", function()
+  hs.caffeinate.lockScreen()
+end)
 
 hs.hotkey.bind({"alt"}, "return", function()
   hs.application.launchOrFocus('iterm')
